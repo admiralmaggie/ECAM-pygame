@@ -1,15 +1,15 @@
 #!/bin/sh
 #
-# pyGame        Starts pyGame script.
+# pygame        Starts pygame script.
 #
 
 start() {
-    printf "Starting PyGame: "
+    printf "Starting Pygame script: "
     /usr/bin/python3 /root/test1/main.py
 	echo "OK"
 }
 stop() {
-	printf "Stopping PyGame: "
+	printf "Stopping Pygame script: "
 	killall python3
 	echo "OK"
 }
